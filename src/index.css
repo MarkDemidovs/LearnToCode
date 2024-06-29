@@ -1,0 +1,24 @@
+#textEditor {
+  background-color: black;
+  color:white;
+  resize: none;
+  height: 100vh;
+
+
+}
+#htmlShown {
+  border: 1px solid black;
+}
+
+#page {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . ."; 
+}
+#workSheet {
+  border: 1px solid black;
+}
